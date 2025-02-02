@@ -1,0 +1,6 @@
+@WeatherWebApiAzure_HostAddress = http://localhost:5106
+
+GET {{WeatherWebApiAzure_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+﻿services:
+  weatherwebapiazure:
+    image: weatherwebapiazure
+    build:
+      context: .
+      dockerfile: WeatherWebApiAzure/Dockerfile
